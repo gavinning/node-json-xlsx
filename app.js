@@ -1,7 +1,7 @@
 var os = require('os');
 var path = require('path');
 var guid = require('guid');
-var j2e = require('json2xlsx');
+var j2e = require('json2xlsx-copy');
 var lab = require('linco.lab');
 var Config = require('vpm-config');
 
