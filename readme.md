@@ -33,7 +33,7 @@ var je = new JE({tmpDir: '/tmp'});
 console.log(je.write(data)) // => /tmp/guid.xlsx
 
 // Or
-je.write(data, (filepath) => {
+je.write(data, (err, filepath) => {
     console.log(filepath)
 })
 ```
